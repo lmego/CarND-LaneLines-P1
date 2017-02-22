@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./output_images/edges_solidYellowLeft.jpg "Grayscale"
-[image2]: ./output_images/masked_solidYellowLeftjpg "Grayscale"
+[image2]: ./output_images/masked_solidYellowLeft.jpg "Grayscale"
 [image3]: ./output_images/lanes_solidYellowLeft.jpg "Grayscale"
 [image4]: ./output_images/blended_solidYellowLeft.jpg "Grayscale"
 
