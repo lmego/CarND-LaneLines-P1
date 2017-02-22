@@ -13,6 +13,7 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/masked_solidYellowLeft.jpg "Grayscale"
 [image3]: ./output_images/lanes_solidYellowLeft.jpg "Grayscale"
 [image4]: ./output_images/blended_solidYellowLeft.jpg "Grayscale"
+[image5]: ./output_images/blended_solidYellowLeftbroken.jpg
 
 ---
 
@@ -33,7 +34,7 @@ My pipeline consisted of 5 steps:
 
 - Then I applied the Hough transformation function on the masked canny edge output image from the previous step. This function calls the draw function which draws single lines over each lane line. 
 
-![alt text][image4]
+![alt text][image5]
 
 When observing the Hough line segment outputs, one can conclude that the segments with negative slopes most likely belong to the left lane, and the segments with a positive slopes most likely belong to the right lane. 
 
@@ -46,6 +47,7 @@ Therefore, in order to draw a single line per lane, I modified the draw_lines() 
 
 ![alt text][image3]
 
+![alt text][image4]
 
 ###2. Identify potential shortcomings with your current pipeline
 
